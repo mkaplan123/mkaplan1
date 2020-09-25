@@ -1,0 +1,164 @@
+******************************************* SYSTEM INFO ******************************************
+
+
+========================================= HOST INFO ==========================================
+
+	Hostname:	localhost.localdomain
+
+
+========================================== OS INFO ===========================================
+
+	OS Info:	CentOS Linux release 8.2.2004 (Core)
+	 Install Date: Tue 23 Jun 2020 10:52:12 AM EDT
+
+
+======================================== KERNEL INFO =========================================
+
+	Kernel Version:	4.18.0-193.el8.x86_64
+
+
+========================================= CPU INFO ===========================================
+
+	Total Processor:	1
+	CPU Processor Model:	 Intel(R) Xeon(R) CPU E5-2680 0 @ 2.70GHz
+	CPU Processor Speed:	 2699.999
+	CPU Cache Size:	 20480 KB
+
+
+========================================== RAM INFO ==========================================
+
+	Memory(RAM) Info:	 Total: 1.8Gi Used: 214Mi Free: 1.1Gi
+	Swap Memory Info:	 Total: 2.0Gi Used: 0B Free: 2.0Gi
+
+
+========================================== IP INFO ===========================================
+
+
+
+====================================== IPTABLES TABLE INFO ======================================
+
+
+
+====================================== ROUTE TABLE INFO ======================================
+
+
+
+====================================== MOUNT POINT INFO ======================================
+
+
+/dev/mapper/cl-root     /                       xfs     defaults        0 0
+UUID=f64cc2de-e2de-4dd1-846f-b8ac048bdbb7 /boot                   ext4    defaults        1 2
+/dev/mapper/cl-swap     swap                    swap    defaults        0 0
+
+
+==================================== DISK PARTATION INFO =====================================
+
+Filesystem           Size  Used Avail Use% Mounted on
+devtmpfs             896M     0  896M   0% /dev
+tmpfs                913M     0  913M   0% /dev/shm
+tmpfs                913M   57M  857M   7% /run
+tmpfs                913M     0  913M   0% /sys/fs/cgroup
+/dev/mapper/cl-root   17G  1.6G   16G   9% /
+/dev/sda1            976M  142M  767M  16% /boot
+tmpfs                183M     0  183M   0% /run/user/1000
+
+
+==================================== PHYSICAL VOLUME INFO ====================================
+
+
+
+===================================== VOLUME GROUP INFO ======================================
+
+
+
+===================================== LOGICAL VOLUME INFO ====================================
+
+
+
+========================================= DNS SERVER IP ===========================================
+
+(none)
+
+
+==================================== RUNNING SERVICE INFO ====================================
+
+  auditd.service                                                                                   loaded active running   Security Auditing Service                                                    
+  crond.service                                                                                    loaded active running   Command Scheduler                                                            
+  dbus.service                                                                                     loaded active running   D-Bus System Message Bus                                                     
+  dbus.socket                                                                                      loaded active running   D-Bus System Message Bus Socket                                              
+  firewalld.service                                                                                loaded active running   firewalld - dynamic firewall daemon                                          
+  getty@tty1.service                                                                               loaded active running   Getty on tty1                                                                
+  init.scope                                                                                       loaded active running   System and Service Manager                                                   
+  NetworkManager.service                                                                           loaded active running   Network Manager                                                              
+  polkit.service                                                                                   loaded active running   Authorization Manager                                                        
+  rngd.service                                                                                     loaded active running   Hardware RNG Entropy Gatherer Daemon                                         
+  rsyslog.service                                                                                  loaded active running   System Logging Service                                                       
+  session-1.scope                                                                                  loaded active running   Session 1 of user student                                                    
+  sshd.service                                                                                     loaded active running   OpenSSH server daemon                                                        
+  sssd.service                                                                                     loaded active running   System Security Services Daemon                                              
+  systemd-journald-dev-log.socket                                                                  loaded active running   Journal Socket (/dev/log)                                                    
+  systemd-journald.service                                                                         loaded active running   Journal Service                                                              
+  systemd-journald.socket                                                                          loaded active running   Journal Socket                                                               
+  systemd-logind.service                                                                           loaded active running   Login Service                                                                
+  systemd-udevd-control.socket                                                                     loaded active running   udev Control Socket                                                          
+  systemd-udevd-kernel.socket                                                                      loaded active running   udev Kernel Socket                                                           
+  systemd-udevd.service                                                                            loaded active running   udev Kernel Device Manager                                                   
+  tuned.service                                                                                    loaded active running   Dynamic System Tuning Daemon                                                 
+  user@1000.service                                                                                loaded active running   User Manager for UID 1000                                                    
+  vgauthd.service                                                                                  loaded active running   VGAuth Service for open-vm-tools                                             
+  vmtoolsd.service                                                                                 loaded active running   Service for virtual machines hosted on VMware                                
+
+
+========================================= SELINUX ===========================================
+
+# SELINUX= can take one of these three values:
+SELINUX=enforcing
+
+
+==================================== TOTAL RUNNING SERVICE ===================================
+
+	Total Running service:	25
+
+
+==================================== NON-RUNNING SERVICE INFO ====================================
+
+  dracut-shutdown.service                                                                          loaded active exited    Restore /run/initramfs on shutdown                                           
+  import-state.service                                                                             loaded active exited    Import network configuration from initramfs                                  
+  kdump.service                                                                                    loaded active exited    Crash recovery kernel arming                                                 
+  kmod-static-nodes.service                                                                        loaded active exited    Create list of required static device nodes for the current kernel           
+  lvm2-monitor.service                                                                             loaded active exited    Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling
+  lvm2-pvscan@8:2.service                                                                          loaded active exited    LVM event activation on device 8:2                                           
+  nis-domainname.service                                                                           loaded active exited    Read and set NIS domainname from /etc/sysconfig/network                      
+  rngd-wake-threshold.service                                                                      loaded active exited    Hardware RNG Entropy Gatherer Wake threshold service                         
+  systemd-fsck@dev-disk-by\x2duuid-f64cc2de\x2de2de\x2d4dd1\x2d846f\x2db8ac048bdbb7.service        loaded active exited    File System Check on /dev/disk/by-uuid/f64cc2de-e2de-4dd1-846f-b8ac048bdbb7  
+  systemd-journal-flush.service                                                                    loaded active exited    Flush Journal to Persistent Storage                                          
+  systemd-random-seed.service                                                                      loaded active exited    Load/Save Random Seed                                                        
+  systemd-remount-fs.service                                                                       loaded active exited    Remount Root and Kernel File Systems                                         
+  systemd-sysctl.service                                                                           loaded active exited    Apply Kernel Variables                                                       
+  systemd-tmpfiles-setup-dev.service                                                               loaded active exited    Create Static Device Nodes in /dev                                           
+  systemd-tmpfiles-setup.service                                                                   loaded active exited    Create Volatile Files and Directories                                        
+  systemd-udev-trigger.service                                                                     loaded active exited    udev Coldplug all Devices                                                    
+  systemd-update-utmp.service                                                                      loaded active exited    Update UTMP about System Boot/Shutdown                                       
+  systemd-user-sessions.service                                                                    loaded active exited    Permit User Sessions                                                         
+  user-runtime-dir@1000.service                                                                    loaded active exited    /run/user/1000 mount wrapper                                                 
+
+
+==================================== TOTAL NON-RUNNING SERVICE ===================================
+
+	Total Non-Running service:	19
+
+
+========================================= GRUB INFO ==========================================
+
+GRUB_TIMEOUT=5
+GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
+GRUB_DEFAULT=saved
+GRUB_DISABLE_SUBMENU=true
+GRUB_TERMINAL_OUTPUT="console"
+GRUB_CMDLINE_LINUX="crashkernel=auto resume=/dev/mapper/cl-swap rd.lvm.lv=cl/root rd.lvm.lv=cl/swap rhgb quiet"
+GRUB_DISABLE_RECOVERY="true"
+GRUB_ENABLE_BLSCFG=true
+
+
+========================================= TOTAL SYSTEM INSTALLED PACKAGES ==========================================
+
