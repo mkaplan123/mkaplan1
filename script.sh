@@ -1,5 +1,5 @@
 #!/bin/bash
-out_file_path=/home/mkalan1/mkaplan1_matrix_base.txt
+out_file_path=~/spr500/lab1/mkaplan1_vm_base.txt
 rm -rf $out_file_path
 
  
