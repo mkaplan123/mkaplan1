@@ -1,61 +1,118 @@
 .
-├── .git
-│   ├── branches
-│   ├── config
-│   ├── description
-│   ├── HEAD
-│   ├── hooks
-│   │   ├── applypatch-msg.sample
-│   │   ├── commit-msg.sample
-│   │   ├── post-update.sample
-│   │   ├── pre-applypatch.sample
-│   │   ├── pre-commit.sample
-│   │   ├── prepare-commit-msg.sample
-│   │   ├── pre-push.sample
-│   │   ├── pre-rebase.sample
-│   │   └── update.sample
-│   ├── index
-│   ├── info
-│   │   └── exclude
-│   ├── logs
+├── gitlog.txt
+├── mkaplan1
+│   ├── .git
+│   │   ├── branches
+│   │   ├── config
+│   │   ├── description
 │   │   ├── HEAD
+│   │   ├── hooks
+│   │   │   ├── applypatch-msg.sample
+│   │   │   ├── commit-msg.sample
+│   │   │   ├── fsmonitor-watchman.sample
+│   │   │   ├── post-update.sample
+│   │   │   ├── pre-applypatch.sample
+│   │   │   ├── pre-commit.sample
+│   │   │   ├── prepare-commit-msg.sample
+│   │   │   ├── pre-push.sample
+│   │   │   ├── pre-rebase.sample
+│   │   │   ├── pre-receive.sample
+│   │   │   └── update.sample
+│   │   ├── index
+│   │   ├── info
+│   │   │   └── exclude
+│   │   ├── logs
+│   │   │   ├── HEAD
+│   │   │   └── refs
+│   │   │       ├── heads
+│   │   │       │   └── master
+│   │   │       └── remotes
+│   │   │           └── origin
+│   │   │               └── HEAD
+│   │   ├── objects
+│   │   │   ├── 03
+│   │   │   │   └── a4501ed5ad48c28a73b5018864a2e18fcd0d06
+│   │   │   ├── 1c
+│   │   │   │   └── a9ba37848a3253bf09d53154a35cf653f653a8
+│   │   │   ├── 1d
+│   │   │   │   └── 0511d2ab841cc7f0db3e9f8d5fd52f1799021d
+│   │   │   ├── 20
+│   │   │   │   ├── 70b7f9eea5f014612bbd390721e35d680a5741
+│   │   │   │   └── 9f50bc5f2f5006baaefdcf6192827993f87ef4
+│   │   │   ├── 3b
+│   │   │   │   ├── a518c5b0b6ed228a32a59da52a8b59012618d7
+│   │   │   │   └── da054d9bc36e5c476a8848defab16a8b3b36cd
+│   │   │   ├── 3d
+│   │   │   │   └── 0f8c62fb6af843c2aada0dfb8d3bc6e6317eb6
+│   │   │   ├── 4b
+│   │   │   │   └── 4814f17ee928f2721db2077883bfadd5a14766
+│   │   │   ├── 4e
+│   │   │   │   └── 8148a898a5b53aa2bfdcda7bfbc7f16c881c70
+│   │   │   ├── 54
+│   │   │   │   ├── 68f016467065c7628597b91f8df978d76dda5c
+│   │   │   │   └── 8a699d883f9b319eadf39908d8c78b94605c2d
+│   │   │   ├── 56
+│   │   │   │   └── 4ac1adac134e06a0362739a778ccccee640c9c
+│   │   │   ├── 5f
+│   │   │   │   └── 1588930ec8c1dba10d9320e2f4c2983de72648
+│   │   │   ├── 6b
+│   │   │   │   └── ae5ffcc92c5e556f26bfaf083b65cd169c56a9
+│   │   │   ├── 6f
+│   │   │   │   └── 07c4ca4af884a4798a36098b2fbeea06e387fe
+│   │   │   ├── 74
+│   │   │   │   └── 256a8159d7511ecaf15d6ea6d48b5c71c0cc39
+│   │   │   ├── 83
+│   │   │   │   └── 50e2c70b3ebfba57e386b7acb3e56dd0dbc81c
+│   │   │   ├── 8b
+│   │   │   │   └── 9318c728c4c7afa06ca3beb6a117efeb7f0cef
+│   │   │   ├── 9d
+│   │   │   │   └── 0421be512b3ceec80cd3969728e097d9afed7d
+│   │   │   ├── a7
+│   │   │   │   └── 85456215f08ab6e7b7805b5682166bff9fb698
+│   │   │   ├── ae
+│   │   │   │   └── 21699a2ee803e899f76cd576443be6372eabb7
+│   │   │   ├── af
+│   │   │   │   └── d6e505548556d537fc4fc58b583300fe2b0756
+│   │   │   ├── b1
+│   │   │   │   └── 5bf66564f0360cb9e9710a8f9b63b956722a47
+│   │   │   ├── bd
+│   │   │   │   └── d302211e5f9400478be284d9868d813763be82
+│   │   │   ├── d1
+│   │   │   │   └── b5d49cc57947dddfdf995a06f24ed0ae73d77e
+│   │   │   ├── d4
+│   │   │   │   └── 3752d1957e0b31c2e05ef2a5d568b15c0354e9
+│   │   │   ├── d6
+│   │   │   │   ├── 62432961567dc21a5b138c985a38078bce8023
+│   │   │   │   └── ab18df63b6f2b50eb5b798e37c7c6064151de8
+│   │   │   ├── d7
+│   │   │   │   └── a4b9a68504f5cd0b6b633b95a62fc75a146209
+│   │   │   ├── d8
+│   │   │   │   └── 3c299ae71bfcacf3ccac84b8cdef742981e140
+│   │   │   ├── e4
+│   │   │   │   └── 49a63b23afa53a5ccd78e87bb2f444a1706bad
+│   │   │   ├── e6
+│   │   │   │   └── 1dbe39058ae71aeab120bca8e752ee813508d0
+│   │   │   ├── f9
+│   │   │   │   └── 82009fd94a40c2bb7fc2e6306f0cfc698d34e7
+│   │   │   ├── fb
+│   │   │   │   └── 2d1f8637a92eed544c2418cf542bab0449b800
+│   │   │   ├── fc
+│   │   │   │   └── 53c3936c87eecb90ebac788e84dda6e3d9eca9
+│   │   │   ├── info
+│   │   │   └── pack
+│   │   ├── packed-refs
 │   │   └── refs
 │   │       ├── heads
 │   │       │   └── master
-│   │       └── remotes
-│   │           └── origin
-│   │               └── HEAD
-│   ├── objects
-│   │   ├── 1c
-│   │   │   └── a9ba37848a3253bf09d53154a35cf653f653a8
-│   │   ├── 20
-│   │   │   └── 70b7f9eea5f014612bbd390721e35d680a5741
-│   │   ├── 3d
-│   │   │   └── 0f8c62fb6af843c2aada0dfb8d3bc6e6317eb6
-│   │   ├── 4b
-│   │   │   └── 4814f17ee928f2721db2077883bfadd5a14766
-│   │   ├── 54
-│   │   │   └── 68f016467065c7628597b91f8df978d76dda5c
-│   │   ├── 6f
-│   │   │   └── 07c4ca4af884a4798a36098b2fbeea06e387fe
-│   │   ├── 9d
-│   │   │   └── 0421be512b3ceec80cd3969728e097d9afed7d
-│   │   ├── a7
-│   │   │   └── 85456215f08ab6e7b7805b5682166bff9fb698
-│   │   ├── d1
-│   │   │   └── b5d49cc57947dddfdf995a06f24ed0ae73d77e
-│   │   ├── d7
-│   │   │   └── a4b9a68504f5cd0b6b633b95a62fc75a146209
-│   │   ├── info
-│   │   └── pack
-│   ├── packed-refs
-│   └── refs
-│       ├── heads
-│       │   └── master
-│       ├── remotes
-│       │   └── origin
-│       │       └── HEAD
-│       └── tags
-└── README.md
+│   │       ├── remotes
+│   │       │   └── origin
+│   │       │       └── HEAD
+│   │       └── tags
+│   ├── gitlog.txt
+│   ├── mkaplan1
+│   ├── README.md
+│   ├── repo_tree.txt
+│   └── script.sh
+└── repo_tree.txt
 
-27 directories, 31 files
+51 directories, 64 files
