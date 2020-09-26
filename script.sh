@@ -1,5 +1,5 @@
 #!/bin/bash
-out_file_path=~/spr500/lab1/mkaplan1_gateway_base.txt
+out_file_path=/home/mkalan1/mkaplan1_matrix_base.txt
 rm -rf $out_file_path
 
  
@@ -26,14 +26,14 @@ echo -e "\tMemory(RAM) Info:\t"`free -mht| awk '/Mem/{print " \tTotal: " $2 "\tU
 echo -e "\tSwap Memory Info:\t"`free -mht| awk '/Swap/{print " \t\tTotal: " $2 "\tUsed: " $3 "\tFree: " $4}'` >> $out_file_path
  
 echo -e "\n\n========================================== IP INFO ===========================================\n" >> $out_file_path
-ifconfig >> $out_file_path
+ip a >> $out_file_path
 
 echo -e "\n\n====================================== IPTABLES TABLE INFO ======================================\n" >> $out_file_path
 
 iptables -L -v -n >> $out_file_path
  
 echo -e "\n\n====================================== ROUTE TABLE INFO ======================================\n" >> $out_file_path
-route -n >> $out_file_path
+ip route >> $out_file_path
  
 echo -e "\n\n====================================== MOUNT POINT INFO ======================================\n" >> $out_file_path
 cat /etc/fstab|grep -v "#" >> $out_file_path
