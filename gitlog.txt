@@ -1,0 +1,99 @@
+commit b32dda4108f6b799088c89ebe2ade1fdcde379c2
+Author: mkaplan123 <71391643+mkaplan123@users.noreply.github.com>
+Date:   Sat Sep 26 20:10:50 2020 -0400
+
+    Delete gitlog.txt
+
+commit a49df05849096a5f74537dd7741d20d88d33e52d
+Author: Student <student@localhost.localdomain>
+Date:   Sat Sep 26 15:49:17 2020 -0400
+
+    VMs
+
+commit 9971a4cf8d5d4f35e6ddf1173c6b7cf46f77a2ab
+Author: Marsel Kaplan <mkaplan1@mtrx-node02pd.dcm.senecacollege.ca>
+Date:   Sat Sep 26 15:42:54 2020 -0400
+
+    matrix
+
+commit 6bae5ffcc92c5e556f26bfaf083b65cd169c56a9
+Author: mkaplan123 <71391643+mkaplan123@users.noreply.github.com>
+Date:   Sat Sep 26 11:19:02 2020 -0400
+
+    Update README.md
+
+commit d662432961567dc21a5b138c985a38078bce8023
+Author: mkaplan123 <71391643+mkaplan123@users.noreply.github.com>
+Date:   Sat Sep 26 11:04:17 2020 -0400
+
+    Delete mkaplan1_vm2_base.txt
+
+commit afd6e505548556d537fc4fc58b583300fe2b0756
+Author: mkaplan123 <71391643+mkaplan123@users.noreply.github.com>
+Date:   Sat Sep 26 11:04:00 2020 -0400
+
+    Delete mkaplan1_gateway_base.txt
+
+commit e449a63b23afa53a5ccd78e87bb2f444a1706bad
+Author: mkaplan123 <71391643+mkaplan123@users.noreply.github.com>
+Date:   Sat Sep 26 11:02:47 2020 -0400
+
+    Update script.sh
+
+commit d43752d1957e0b31c2e05ef2a5d568b15c0354e9
+Author: mkaplan123 <71391643+mkaplan123@users.noreply.github.com>
+Date:   Sat Sep 26 10:50:42 2020 -0400
+
+    Update script.sh
+
+commit fc53c3936c87eecb90ebac788e84dda6e3d9eca9
+Author: Student <student@localhost.localdomain>
+Date:   Fri Sep 25 18:22:18 2020 -0400
+
+    VM2
+
+commit 4e8148a898a5b53aa2bfdcda7bfbc7f16c881c70
+Author: Student <student@localhost.localdomain>
+Date:   Thu Sep 24 21:47:23 2020 -0400
+
+    VM1
+
+commit 564ac1adac134e06a0362739a778ccccee640c9c
+Merge: 209f50b 2070b7f
+Author: root <mkaplan1@myseneca.ca>
+Date:   Thu Sep 24 14:54:17 2020 -0400
+
+    Merge branch 'master' of https://github.com/mkaplan123/mkaplan1
+
+commit 209f50bc5f2f5006baaefdcf6192827993f87ef4
+Author: root <mkaplan1@myseneca.ca>
+Date:   Thu Sep 24 14:51:00 2020 -0400
+
+    lab 1
+
+commit 2070b7f9eea5f014612bbd390721e35d680a5741
+Merge: a785456 3d0f8c6
+Author: mkaplan123 <71391643+mkaplan123@users.noreply.github.com>
+Date:   Mon Sep 21 15:36:25 2020 -0400
+
+    Merge pull request #1 from mkaplan123/mkaplan-edit
+    
+    Update README.md
+
+commit 3d0f8c62fb6af843c2aada0dfb8d3bc6e6317eb6
+Author: mkaplan123 <71391643+mkaplan123@users.noreply.github.com>
+Date:   Mon Sep 21 15:33:48 2020 -0400
+
+    Update README.md
+
+commit a785456215f08ab6e7b7805b5682166bff9fb698
+Author: mkaplan123 <71391643+mkaplan123@users.noreply.github.com>
+Date:   Mon Sep 21 15:31:09 2020 -0400
+
+    Update README.md
+
+commit 4b4814f17ee928f2721db2077883bfadd5a14766
+Author: mkaplan123 <71391643+mkaplan123@users.noreply.github.com>
+Date:   Mon Sep 21 15:29:39 2020 -0400
+
+    Initial commit
